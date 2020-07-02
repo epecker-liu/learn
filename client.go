@@ -3,10 +3,9 @@ package main
 import (
 	"context"
 	"log"
+	pb "newProject/proto"
 	"os"
 	"time"
-
-	pb "newProject/test"
 
 	"google.golang.org/grpc"
 )
